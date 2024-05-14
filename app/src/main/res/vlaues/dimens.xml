@@ -1,0 +1,35 @@
+<resources>
+
+  <dimen name="app_bar_height">200dp</dimen>
+  
+  <dimen name="app_bar_elevation">2dp</dimen>
+  <dimen name="toolbar_elevation">4dp</dimen>
+  
+  <dimen name="clipper_img_width">75dp</dimen>
+  <dimen name="clipper_img_height">100dp</dimen>
+
+  <dimen name="detail_img_height">175dp</dimen>
+	
+  <dimen name="horizontal_margin">16dp</dimen>
+  <dimen name="vertical_margin">16dp</dimen>
+  
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="fab_elevation">8dp</dimen>
+
+  <dimen name="fab_size">64dp</dimen>
+  <dimen name="fab_sub_size">48dp</dimen>
+
+  <dimen name="image_left_margin_collapsed">16dp</dimen>
+  <dimen name="image_top_margin_collapsed">30dp</dimen>
+  
+  <dimen name="title_left_margin_collapsed">72dp</dimen>
+  <dimen name="title_top_margin_collapsed">60dp</dimen>
+  
+  <dimen name="subtitle_left_margin_collapsed">72dp</dimen>
+  <dimen name="subtitle_top_margin_collapsed">68dp</dimen>
+  
+  <dimen name="image_bottom_margin">80dp</dimen>
+  <dimen name="title_bottom_margin">30dp</dimen>
+  <dimen name="subtitle_bottom_margin">10dp</dimen>
+	
+</resources>

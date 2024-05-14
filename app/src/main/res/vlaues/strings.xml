@@ -1,0 +1,89 @@
+<resources>
+
+  <string name="app_name">clipperdb</string>
+  <string name="app_version">1.3.0.2</string>
+
+  <string name="activity_splash">Splash</string>
+  <string name="activity_main">Main</string>
+  <string name="activity_debug">Debug</string>
+  <string name="activity_settings">Settings</string>
+    
+  <string name="permission_rationale">Permissions are needed to demonstrate access.</string>
+  <string name="ok">ok</string>
+  <string name="permission_available">Rechte wurde gewährt.</string>
+  <string name="permissions_not_granted">Rechte wurden verweigert!</string>
+    
+  <string name="action_cancel">ABBRECHEN</string>
+  <string name="action_back">ZURÜCK</string>
+  <string name="action_suche">SUCHE</string>
+  <string name="action_settings">EiNSTELLUNGEN</string>
+  
+  <string name="str_prozent">0%</string>
+  <string name="str_load">LADE DATEN...</string>
+  <string name="str_login">LOGiN</string>
+    
+  <string name="open">Open drawer</string>
+  <string name="close">Close drawer</string>
+
+  <string name="user_name">patri.ck</string>
+  <string name="user_mail">paat2ick@gmail.com</string>
+  
+  <string name="user_logged_in">Eingeloggt als:</string>
+  <string name="not_logged_in">Nicht Eingeloggt!</string>
+    
+  <string name="hint_user">USERNAME</string>
+  <string name="hint_pass">PASSWORT</string>
+
+  <string name="content_desc">contentDescription</string>
+
+  <!-- // NAViGATiON iTEMS -->
+  <string name="nav_title_clpr">CLiPPERDB</string>
+  <string name="nav_title_app">APPMENUE</string>
+    
+  <string name="nav_start">Startseite</string>
+  <string name="nav_stats">Statistik</string>
+  <string name="nav_karte">KioskKarte</string>
+  <string name="nav_details">Details</string>
+  <string name="nav_about">About</string>
+  <string name="nav_items">Einzelne</string>
+  <string name="nav_sets">Sets</string>
+  <string name="nav_settings">Einstellungen</string>
+  <string name="nav_exit">App Beenden</string>
+
+  <string name="fab_login">USR:LOGiN</string>
+  <string name="fab_refresh">RE:FRESH</string>
+
+  <string name="about">About</string>
+  <string name="about_body"><![CDATA[
+	<br />
+    <b>clipperdb</b><br />
+    version %s<br /><br />
+    Developed by <b><a href="http://facebook.com/de.pfaff">patr.ck</a></b>
+	<br />
+	  ]]></string>
+
+  <string name="subtitle">SEiTENTiTEL</string>
+	
+  <string name="pref_key_auto_update">pref_key_auto_update</string>
+  <string name="pref_key_theme">pref_key_theme</string>
+  <string name="pref_key_privacy_policy">pref_key_privacy_policy</string>
+  <string name="pref_key_terms">pref_key_terms</string>
+  <string name="pref_key_faq">pref_key_faq</string>
+
+  <string name="pref_header_about">About</string>
+  <string name="pref_header_general">Allgemein</string>
+
+  <string name="pref_title_auto_update">Auto Update</string>
+  <string name="pref_title_theme">Theme</string>
+  <string name="pref_title_privacy_policy">Privacy Policy</string>
+  <string name="pref_title_terms">Terms</string>
+  <string name="pref_title_faq">FAQ</string>
+    
+  <string name="pref_summary_auto_update">Automatisches Anwendungsupdate aktivieren</string>
+  <string name="pref_summary_theme">App Theme auswählen</string>
+  
+  <string name="url_privacy_policy">http://pfaucms.bplaced.net/app/privacy_police.php</string>
+  <string name="url_terms">http://pfaucms.bplaced.net/app/terms_of_service.php</string>
+  <string name="url_faq">http://pfaucms.bplaced.net/app/faq.php</string>
+    
+</resources>

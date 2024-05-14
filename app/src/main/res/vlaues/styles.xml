@@ -1,0 +1,57 @@
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+  <style name="AppTheme.Pink" parent="AppTheme.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+      
+<style name="AppTheme.Gruen" parent="AppTheme.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimaryGruen</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDarkGruen</item>
+    <item name="colorAccent">@color/colorAccentGruen</item>
+  </style>
+  
+	<style name="AppTheme.NoActionBar" parent="AppTheme">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:textColorPrimary">@color/black</item>
+    <item name="android:textColorSecondary">@color/black</item>
+  </style>
+  
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+  <style name="AppTheme.Dialog" parent="Base.Theme.AppCompat.Dialog"/>
+
+  <style name="AppTheme.ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+    <item name="android:progressTint">@color/colorPrimary</item>
+	<item name="android:indeterminate">true</item>
+	<item name="android:layout_marginLeft">48dp</item>
+    <item name="android:layout_marginRight">48dp</item>
+	<item name="android:gravity">center_horizontal</item>
+  </style>
+  
+  <style name="AppTheme.CollapsingToolbar.Expanded" parent="@style/TextAppearance.AppCompat.Title">
+    <item name="android:textSize">24sp</item>
+    <item name="android:textColor">#000</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+    <style name="AppTheme.CollapsingToolbar.Collapsed" parent="@style/TextAppearance.AppCompat.Title">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">@color/pink</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+  
+  <style name="AppTheme.NavItem">
+    <item name="android:textColor">#e17272</item>
+    <item name="android:textSize">18dp</item>
+    <item name="android:fontFamily">sans-serif</item>
+  </style>
+	  
+</resources>
