@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/nav_start"
+    android:title="@string/nav_start"
+    android:icon="@drawable/nav_start" />
+
+    <item android:title="@string/nav_title_clpr">
+    <menu>
+      <item
+        android:id="@+id/nav_items"
+        android:title="@string/nav_items"
+        android:icon="@drawable/nav_items" />
+      <item
+        android:id="@+id/nav_sets"
+        android:title="@string/nav_sets"
+        android:icon="@drawable/nav_sets" />
+      <item
+        android:id="@+id/nav_karte"
+        android:title="@string/nav_karte"
+        android:icon="@drawable/nav_karte" />
+      <item
+		android:id="@+id/nav_stats"
+        android:title="@string/nav_stats"
+        android:icon="@drawable/nav_stats" />
+    </menu>
+  </item>
+
+  <item android:title="@string/nav_title_app">
+    <menu>
+      <item
+        android:id="@+id/nav_about"
+        android:title="@string/nav_about"
+        android:icon="@drawable/nav_about" />
+      <item
+        android:id="@+id/nav_settings"
+        android:title="@string/nav_settings"
+        android:icon="@drawable/nav_settings" />
+      <item
+        android:id="@+id/nav_exit"
+        android:title="@string/nav_exit"
+        android:icon="@drawable/nav_exit" />
+    </menu>
+  </item>
+
+</menu>
