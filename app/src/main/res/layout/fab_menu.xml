@@ -1,0 +1,33 @@
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:fab="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+	android:id="@+id/fabExit"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="bottom|end"
+	android:layout_margin="@dimen/fab_margin"
+	fab:srcCompat="@drawable/fab_exit"
+	fab:fabSize="mini"
+	android:visibility="invisible"
+	fab:backgroundTint="@color/colorPrimary"
+	fab:layout_behavior="de.patri.ck.clipperdbx.common.behavior.FABScrollBehavior"
+	android:contentDescription="@string/content_desc" />
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+	android:id="@+id/fabLogin"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="bottom|end"
+    android:layout_margin="@dimen/fab_margin"
+	fab:srcCompat="@drawable/fab_login"
+	fab:fabSize="mini"
+	android:visibility="invisible"
+	fab:layout_behavior="de.patri.ck.clipperdbx.common.behavior.FABScrollBehavior"
+	android:contentDescription="@string/content_desc"
+	fab:backgroundTint="@color/colorPrimary" />
+
+</FrameLayout>

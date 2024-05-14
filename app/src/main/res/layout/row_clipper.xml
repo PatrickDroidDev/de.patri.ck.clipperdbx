@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/card"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:elevation="4dp"
+  android:background="@drawable/border_top"
+  card_view:cardCornerRadius="2dp"
+  card_view:cardUseCompatPadding="true"
+  card_view:cardPreventCornerOverlap="true"
+  card_view:cardElevation="4dp">
+
+  <LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#ffffff"
+	android:orientation="vertical">
+
+	<LinearLayout
+      android:id="@+id/card_header"
+	  android:background="#232323"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:paddingStart="8dp"
+	  android:paddingEnd="8dp"
+	  android:paddingTop="2dp"
+	  android:paddingBottom="2dp"
+	  android:orientation="horizontal">
+
+	  <TextView
+		android:id="@+id/name"
+		android:layout_width="wrap_content"
+		android:layout_height="20dp"
+		android:gravity="start|center_vertical"
+		android:textColor="#ffffff"
+		android:textSize="13sp"
+		android:textStyle="bold" />
+
+	</LinearLayout>
+
+    <LinearLayout
+	  android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+	  android:id="@+id/linearLayout"
+	  android:background="#Ffffff"
+	  android:gravity="center"
+	  android:padding="1dp">
+
+		<com.android.volley.toolbox.NetworkImageView
+		  android:id="@+id/image"
+		  android:layout_width="match_parent"
+		  android:layout_height="@dimen/clipper_img_height"
+		  android:alpha="1.0"
+		  android:layout_gravity="center_horizontal|center_vertical"
+		  android:layout_marginTop="1dp"
+	  	android:layout_marginBottom="1dp"
+		  android:scaleType="fitCenter"
+		  android:adjustViewBounds="true"
+		  android:src="@drawable/load" />
+
+	  </LinearLayout>
+
+	  <LinearLayout
+		android:id="@+id/card_footer"
+		android:background="#232323"
+		android:layout_width="match_parent"
+		android:layout_height="10dp"
+		android:paddingStart="8dp"
+		android:paddingEnd="8dp"
+		android:paddingTop="1dp"
+		android:paddingBottom="1dp"
+		android:orientation="horizontal">
+
+	  <TextView
+		android:id="@+id/datum"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_vertical|end"
+		android:textColor="#ffffff"
+		android:textSize="8sp"
+		tools:text="00.00.0000"
+		android:textStyle="normal" />
+
+	</LinearLayout>
+
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>

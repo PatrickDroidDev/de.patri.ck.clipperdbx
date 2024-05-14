@@ -1,0 +1,94 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="24dp"
+	android:paddingRight="24dp"
+	tools:context="de.patri.ck.clipperdbx.fragmente.Login"
+  android:background="@color/weiss">
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp">
+
+	  <TextView
+	    android:id="@+id/tvMsg"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:textSize="13sp"
+      android:paddingBottom="12dp"
+	    android:textStyle="bold" />
+
+	  <EditText
+	    android:id="@+id/etName"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/hint_user"
+	    android:textColor="#000000"
+	    android:textColorHint="#FFFFFF"
+	    android:background="#E0E0E0"
+	    android:fontFamily="sans-serif-light"
+	    android:focusable="true"
+	    android:paddingLeft="4dp"
+	    android:paddingRight="4dp"
+      android:paddingTop="8dp"
+	    android:paddingBottom="8dp"
+	    android:layout_marginTop="12dp"
+	    android:layout_marginBottom="2dp"
+	    android:focusableInTouchMode="true" />
+
+	  <EditText
+	    android:id="@+id/etPass"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textPassword"
+	    android:textColor="#000000"
+	    android:textColorHint="#FFFFFF"
+	    android:background="#E0E0E0"
+	    android:paddingLeft="4dp"
+	    android:paddingRight="4dp"
+	    android:paddingTop="8dp"
+	    android:paddingBottom="8dp"
+	    android:fontFamily="sans-serif-light"
+	    android:hint="@string/hint_pass"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true" />
+
+	  <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:layout_marginTop="10dp"
+	    android:layout_gravity="center_horizontal|center_vertical"
+	    android:id="@+id/linearLayout">
+		
+        <Button
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:id="@+id/btn_cancel"
+			  android:gravity="start"
+			  android:layout_gravity="center_horizontal|center_vertical"
+			  android:text="@string/action_cancel"
+			android:textColor="#FF0180" />
+
+		  <Button
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:id="@+id/btn_login"
+			  android:gravity="end"
+			  android:layout_gravity="center_horizontal|center_vertical"
+			  android:text="@string/str_login"
+			  android:textColor="#FF0180" />
+	   
+	  </LinearLayout>
+
+  </LinearLayout>
+	
+</LinearLayout>
